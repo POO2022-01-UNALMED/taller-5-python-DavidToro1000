@@ -7,7 +7,7 @@ class Animal:
         self._habitat=habitat
         self._genero=genero
         self._zona=None
-        Animal._totalAnimles+=1
+        Animal._totalAnimales+=1
     @classmethod
     def getTotalAnimales(cls):
         return cls._totalAnimales

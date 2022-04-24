@@ -10,7 +10,7 @@ class Reptil(Animal):
         Reptil._listado.append(self)
     def setColorEscamas(self,c):
         self._colorEscamas=c
-    def getcolorEscamas(self):
+    def getColorEscamas(self):
         return self._colorEscamas
     def setlargoCola(self,l):
         self._largoCola=l

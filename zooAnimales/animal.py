@@ -1,4 +1,3 @@
-from tkinter import N
 from gestion.zona import Zona
 from zooAnimales.mamifero import Mamifero
 from zooAnimales.ave import Ave

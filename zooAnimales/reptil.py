@@ -12,9 +12,9 @@ class Reptil(Animal):
         self._colorEscamas=c
     def getColorEscamas(self):
         return self._colorEscamas
-    def setlargoCola(self,l):
+    def setLargoCola(self,l):
         self._largoCola=l
-    def getlargoCola(self):
+    def getLargoCola(self):
         return self._largoCola
     @classmethod
     def getListado(cls):

@@ -16,7 +16,4 @@ class Zoologico():
     def getUbicacion(self):
         return self._ubicacion
     def cantidadTotalAnimales(self):
-        count=0
-        for i in self._zonas:
-            count+=i.cantidadAnimales()
-        return count
+        return sum([x.cantidadAnimales() for x in self._zonas])
